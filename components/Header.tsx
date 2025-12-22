@@ -7,7 +7,7 @@ import SearchButton from './SearchButton'
 
 const Header = () => {
   let headerClass =
-    'flex w-full items-center justify-between bg-white py-5 dark:bg-gray-950'
+    'flex w-full items-center justify-between bg-white pt-5 pb-8 dark:bg-gray-950'
   if (siteMetadata.stickyNav) {
     headerClass += ' sticky top-0 z-50'
   }
@@ -17,8 +17,9 @@ const Header = () => {
       <Link href="/" aria-label={siteMetadata.headerTitle}>
         <div className="flex items-center gap-3">
           {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden text-xl leading-none font-semibold sm:block">
-              {siteMetadata.headerTitle}
+            <div className="hidden sm:block">
+              <span className="text-xl leading-none font-semibold">{siteMetadata.headerTitle}</span>
+              <span className="text-xl leading-none font-semibold text-primary-500">.</span>
             </div>
           ) : (
             siteMetadata.headerTitle

@@ -9,7 +9,7 @@ import {
 
 export default function CVPage() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-white dark:bg-gray-900 mt-10 rounded-xl">
       <div className="mx-auto max-w-5xl px-6 py-12">
         <header className="mb-12 space-y-6 border-b border-gray-200 pb-8 dark:border-gray-700">
           <div className="space-y-4">

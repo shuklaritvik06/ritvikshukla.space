@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Ritvik Shukla',
   author: 'Ritvik Shukla',
-  headerTitle: 'Ritvik Shukla',
+  headerTitle: 'RS',
   description:
     'Founder | Builder | Writer',
   language: 'en-us',
