@@ -420,14 +420,14 @@ export default function CVPage() {
 
           <div className="space-y-3 text-gray-600 dark:text-gray-400">
             <div className="flex items-start gap-3">
-              <Award className="text-primary-500 mt-1 h-4 w-4 flex-shrink-0" />
+              <Award className="text-primary-500 mt-1 h-4 w-4 shrink-0" />
               <p>
                 Won $5,500 in total prizes, including $500 at the Polygon BUIDL IT Hackathon and
                 $5,000 for DevNFT selected by the Filecoin Accelerator.
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <Award className="text-primary-500 mt-1 h-4 w-4 flex-shrink-0" />
+              <Award className="text-primary-500 mt-1 h-4 w-4 shrink-0" />
               <p>
                 Secured 2nd place at the Blaze API Hackathon, winning INR 21,000 for building an
                 ENS-based crypto portfolio visualizer.
